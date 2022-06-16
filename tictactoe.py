@@ -106,7 +106,7 @@ def minimax(board):
         return None
 
     current_player = player(board)
-    optimal_action = (0, 0)
+    optimal_action = None
     if current_player == X:
         best = -math.inf
         beta = 0
